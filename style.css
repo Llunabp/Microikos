@@ -1,0 +1,81 @@
+header{
+    height: 125px;
+    width: 100vw;
+}
+
+nav{
+    height: 100px;
+    width: 100vw;
+}
+#rayitaDeLluna{
+    height: 25px;
+    width: 100vw;
+    background-color: #335ebd;
+}
+ul{
+    height: 100px;
+    width: 100vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+#linkLogo{
+    height: 100px;
+    padding: 0;
+}
+#logo{
+    height: 100px;
+    padding: 0;
+
+}
+
+li a{
+    display: block;
+    color:#020202bd;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    text-align: center;
+    padding: 50px 2vw;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: #335ebd;
+}
+
+main{
+    min-height: 400px;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.imagenes{
+    padding: 10px;
+    border-style: solid;
+    border-width: medium;
+    border-color: dodgerblue;
+    text-align: center;
+}
+
+.imagenes p a{
+    padding: 10px;
+    background-color:darkslategrey;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+}
+.imagenes p a:hover{
+    background-color: darkgreen;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
