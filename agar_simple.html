@@ -7,7 +7,8 @@
 
     <title>Microikos</title>
 
-    <link rel="stylesheet" href="style.css">
+    <script src="script__resultados.js"></script>
+    <link rel="stylesheet" href="style__resultados.css">
 </head>
 <body>
     <div>
@@ -27,7 +28,15 @@
             <div id="rayitaDeLluna"></div>
         </header>
         <main>
-            <img class="bienvenido" src="/imagenes/bienvenidos.jpeg" alt="Bienvenidos">
+            <div class="resultados">
+                <h1>RESULTADOS</h1>
+                <h2 onclick="mostrar1()">Staphylococus aureus</h2>
+                <h2 onclick="mostrar2()">Neissenia gonorrhoeae</h2>
+            </div>
+            <div class="principal">
+                <h1 id="titulo"></h1>
+                <p id="texto"></p>
+            </div>
         </main>
         <footer>
 
